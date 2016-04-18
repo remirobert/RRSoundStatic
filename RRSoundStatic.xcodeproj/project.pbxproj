@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB96CF031CC4C9890053A319 /* RRSoundStatic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB96CF021CC4C9890053A319 /* RRSoundStatic.h */; };
+		BB96CF0C1CC4C9990053A319 /* libSVSinVoiceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB96CF0B1CC4C9990053A319 /* libSVSinVoiceLib.a */; };
+		BB96CF1B1CC4C9BC0053A319 /* MyPcmPlayerImp.m in Sources */ = {isa = PBXBuildFile; fileRef = BB96CF111CC4C9BC0053A319 /* MyPcmPlayerImp.m */; };
+		BB96CF1C1CC4C9BC0053A319 /* MyPcmRecorderImp.m in Sources */ = {isa = PBXBuildFile; fileRef = BB96CF131CC4C9BC0053A319 /* MyPcmRecorderImp.m */; };
+		BB96CF1D1CC4C9BC0053A319 /* VoiceListenRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB96CF181CC4C9BC0053A319 /* VoiceListenRecognizer.m */; };
+		BB96CF1E1CC4C9BC0053A319 /* VoiceSendRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB96CF1A1CC4C9BC0053A319 /* VoiceSendRecognizer.m */; };
+		BB96CF451CC4CC780053A319 /* VoiceListenRecognizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB96CF171CC4C9BC0053A319 /* VoiceListenRecognizer.h */; };
+		BB96CF461CC4CC780053A319 /* VoiceSendRecognizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BB96CF191CC4C9BC0053A319 /* VoiceSendRecognizer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB96CEFD1CC4C9890053A319 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				BB96CF451CC4CC780053A319 /* VoiceListenRecognizer.h in CopyFiles */,
+				BB96CF461CC4CC780053A319 /* VoiceSendRecognizer.h in CopyFiles */,
+				BB96CF031CC4C9890053A319 /* RRSoundStatic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BB96CEFF1CC4C9890053A319 /* libRRSoundStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRRSoundStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB96CF021CC4C9890053A319 /* RRSoundStatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRSoundStatic.h; sourceTree = "<group>"; };
+		BB96CF0B1CC4C9990053A319 /* libSVSinVoiceLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSVSinVoiceLib.a; sourceTree = "<group>"; };
+		BB96CF0D1CC4C9BC0053A319 /* ESPcmPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPcmPlayer.h; sourceTree = "<group>"; };
+		BB96CF0E1CC4C9BC0053A319 /* ESPcmRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPcmRecorder.h; sourceTree = "<group>"; };
+		BB96CF0F1CC4C9BC0053A319 /* ESType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESType.h; sourceTree = "<group>"; };
+		BB96CF101CC4C9BC0053A319 /* MyPcmPlayerImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPcmPlayerImp.h; sourceTree = "<group>"; };
+		BB96CF111CC4C9BC0053A319 /* MyPcmPlayerImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPcmPlayerImp.m; sourceTree = "<group>"; };
+		BB96CF121CC4C9BC0053A319 /* MyPcmRecorderImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPcmRecorderImp.h; sourceTree = "<group>"; };
+		BB96CF131CC4C9BC0053A319 /* MyPcmRecorderImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPcmRecorderImp.m; sourceTree = "<group>"; };
+		BB96CF141CC4C9BC0053A319 /* RRUltraSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRUltraSound.h; sourceTree = "<group>"; };
+		BB96CF151CC4C9BC0053A319 /* SinVoicePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinVoicePlayer.h; sourceTree = "<group>"; };
+		BB96CF161CC4C9BC0053A319 /* SinVoiceRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinVoiceRecognizer.h; sourceTree = "<group>"; };
+		BB96CF171CC4C9BC0053A319 /* VoiceListenRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceListenRecognizer.h; sourceTree = "<group>"; };
+		BB96CF181CC4C9BC0053A319 /* VoiceListenRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceListenRecognizer.m; sourceTree = "<group>"; };
+		BB96CF191CC4C9BC0053A319 /* VoiceSendRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceSendRecognizer.h; sourceTree = "<group>"; };
+		BB96CF1A1CC4C9BC0053A319 /* VoiceSendRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceSendRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB96CEFC1CC4C9890053A319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB96CF0C1CC4C9990053A319 /* libSVSinVoiceLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB96CEF61CC4C9890053A319 = {
+			isa = PBXGroup;
+			children = (
+				BB96CF011CC4C9890053A319 /* RRSoundStatic */,
+				BB96CF001CC4C9890053A319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB96CF001CC4C9890053A319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB96CEFF1CC4C9890053A319 /* libRRSoundStatic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB96CF011CC4C9890053A319 /* RRSoundStatic */ = {
+			isa = PBXGroup;
+			children = (
+				BB96CF021CC4C9890053A319 /* RRSoundStatic.h */,
+				BB96CF0D1CC4C9BC0053A319 /* ESPcmPlayer.h */,
+				BB96CF0E1CC4C9BC0053A319 /* ESPcmRecorder.h */,
+				BB96CF0F1CC4C9BC0053A319 /* ESType.h */,
+				BB96CF101CC4C9BC0053A319 /* MyPcmPlayerImp.h */,
+				BB96CF111CC4C9BC0053A319 /* MyPcmPlayerImp.m */,
+				BB96CF121CC4C9BC0053A319 /* MyPcmRecorderImp.h */,
+				BB96CF131CC4C9BC0053A319 /* MyPcmRecorderImp.m */,
+				BB96CF141CC4C9BC0053A319 /* RRUltraSound.h */,
+				BB96CF151CC4C9BC0053A319 /* SinVoicePlayer.h */,
+				BB96CF161CC4C9BC0053A319 /* SinVoiceRecognizer.h */,
+				BB96CF171CC4C9BC0053A319 /* VoiceListenRecognizer.h */,
+				BB96CF181CC4C9BC0053A319 /* VoiceListenRecognizer.m */,
+				BB96CF191CC4C9BC0053A319 /* VoiceSendRecognizer.h */,
+				BB96CF1A1CC4C9BC0053A319 /* VoiceSendRecognizer.m */,
+				BB96CF0B1CC4C9990053A319 /* libSVSinVoiceLib.a */,
+			);
+			path = RRSoundStatic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB96CEFE1CC4C9890053A319 /* RRSoundStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB96CF081CC4C9890053A319 /* Build configuration list for PBXNativeTarget "RRSoundStatic" */;
+			buildPhases = (
+				BB96CEFB1CC4C9890053A319 /* Sources */,
+				BB96CEFC1CC4C9890053A319 /* Frameworks */,
+				BB96CEFD1CC4C9890053A319 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RRSoundStatic;
+			productName = RRSoundStatic;
+			productReference = BB96CEFF1CC4C9890053A319 /* libRRSoundStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB96CEF71CC4C9890053A319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Remi Robert";
+				TargetAttributes = {
+					BB96CEFE1CC4C9890053A319 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BB96CEFA1CC4C9890053A319 /* Build configuration list for PBXProject "RRSoundStatic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB96CEF61CC4C9890053A319;
+			productRefGroup = BB96CF001CC4C9890053A319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB96CEFE1CC4C9890053A319 /* RRSoundStatic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB96CEFB1CC4C9890053A319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB96CF1E1CC4C9BC0053A319 /* VoiceSendRecognizer.m in Sources */,
+				BB96CF1B1CC4C9BC0053A319 /* MyPcmPlayerImp.m in Sources */,
+				BB96CF1C1CC4C9BC0053A319 /* MyPcmRecorderImp.m in Sources */,
+				BB96CF1D1CC4C9BC0053A319 /* VoiceListenRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB96CF061CC4C9890053A319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB96CF071CC4C9890053A319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB96CF091CC4C9890053A319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RRSoundStatic",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BB96CF0A1CC4C9890053A319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RRSoundStatic",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB96CEFA1CC4C9890053A319 /* Build configuration list for PBXProject "RRSoundStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB96CF061CC4C9890053A319 /* Debug */,
+				BB96CF071CC4C9890053A319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB96CF081CC4C9890053A319 /* Build configuration list for PBXNativeTarget "RRSoundStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB96CF091CC4C9890053A319 /* Debug */,
+				BB96CF0A1CC4C9890053A319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB96CEF71CC4C9890053A319 /* Project object */;
+}
